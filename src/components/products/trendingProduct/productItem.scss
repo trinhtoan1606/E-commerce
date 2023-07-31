@@ -1,0 +1,22 @@
+.detailImage {
+  width: 100%;
+  object-fit: contain;
+  max-height: 300px;
+  transition: transform 450ms;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.detailImage:hover {
+  transform: scale(1.08);
+}
+
+.detailName {
+  font-size: 18px;
+}
+.detailPrice {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.35);
+}

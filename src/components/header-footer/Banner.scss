@@ -1,0 +1,29 @@
+.banner-container {
+  background-image: url("../../assests/image/banner1.jpg");
+  height: 50vh;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 60px;
+  .banner-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(20%, -150%);
+  }
+  .slogan {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+  }
+  .sale {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .linkToShop {
+    text-decoration: none;
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}

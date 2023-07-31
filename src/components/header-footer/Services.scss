@@ -1,0 +1,30 @@
+.services {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(240, 240, 240, 0.6);
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 30px;
+}
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  .subscribe-slogan {
+    font-style: italic;
+    line-height: 0.8;
+  }
+  .subscribe-input {
+    width: 400px;
+    height: 45px;
+    padding-left: 15px;
+  }
+  .subscribe-btn {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}

@@ -1,0 +1,25 @@
+.footer-main {
+  display: flex;
+}
+.footer-detail {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-right: 250px;
+
+  h5 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: rgba(204, 204, 204, 0.6);
+    line-height: 1.8;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+}

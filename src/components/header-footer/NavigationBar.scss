@@ -1,0 +1,35 @@
+.nav-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  font-weight: 500;
+  .nav-cartInfo {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+  }
+  .nav-logout {
+    display: flex;
+    align-items: center;
+    .nav-logout-btn {
+      display: flex;
+      gap: 5px;
+    }
+    span {
+      cursor: pointer;
+    }
+  }
+  .nav-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .active {
+    color: orange;
+  }
+  .nav-icon {
+    margin-right: 5px;
+  }
+}
